@@ -12,6 +12,6 @@
   corner-shape: squircle;
 }
 
-.avatar-img {
-  corner-shape: round !important;
+.round-corner {
+  corner-shape: round;
 }

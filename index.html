@@ -161,12 +161,12 @@
     <!-- testimonials -->
     <section id="testimonial">
         <div
-            class="container mx-auto my-16 px-16 py-20 rounded-2xl bg-linear-to-l from-[#FF0000] to-[#FF8938] relative flex md:flex-row flex-col gap-10">
+            class="container mx-auto my-16 px-16 py-20 rounded-2xl bg-linear-to-l from-[#FF0000] to-[#FF8938] relative flex xl:flex-row flex-col gap-16">
             <!-- bg image -->
             <img class="absolute bottom-0 left-[14%] max-w-[325px]" src="./images/bg_cup.png" alt="">
 
             <!-- left -->
-            <div>
+            <div class="xl:w-1/2 flex items-start flex-col justify-center">
                 <h2 class="font-extrabold text-4xl mb-5 max-w-sm text-white">Meet Our Super Clients</h2>
                 <p class="text-white mb-7">There are many variations of passages of Lorem Ipsum available, but the
                     majority
@@ -180,13 +180,17 @@
             </div>
 
             <!-- right -->
-            <div>
+            <div class="xl:w-1/2 flex items-end relative flex-col">
                 <!-- card 1 -->
-                <div class="bg-white p-8 rounded-2xl relative">
-                    <img class="avatar-img border-4 rounded-full border-white absolute -top-[12%] -left-[5%] object-cover w-16"
-                        src="./images/client.png" alt="">
+                <div
+                    class="flex flex-col max-w-[433px] relative bg-white pt-12 pl-12 pr-10 pb-8 rounded-2xl mb-14 opacity-30">
+                    <div
+                        class="round-corner bg-white p-1 flex justify-center items-center absolute -top-5 -left-5 rounded-full">
+                        <img class="object-cover w-16" src="./images/client.png" alt="">
+                    </div>
 
-                    <p class="text-gray-500 mb-5">We are providing the best and suitable home insurance services for the
+                    <p class="text-gray-500 mb-5">We are providing the best and suitable home insurance services for
+                        the
                         people who are interested
                         to treatment</p>
 
@@ -195,7 +199,101 @@
                         <p class="text-gray-600">Businessman</p>
                     </div>
 
-                    <img class="absolute w-6 right-[5%] bottom-[5%]" src="./images/circles.png" alt="">
+                    <img class="absolute w-6 right-6 bottom-6" src="./images/circles.png" alt="">
+                </div>
+
+
+                <!-- card 2 -->
+                <div
+                    class="flex flex-col max-w-[433px] bg-white pt-12 pl-12 pr-10 pb-8 rounded-2xl absolute left-0 top-[50%] -translate-y-1/2 z-10">
+                    <div
+                        class="round-corner bg-white p-1 flex justify-center items-center absolute -top-5 -left-5 rounded-full">
+                        <img class="object-cover w-16" src="./images/client.png" alt="">
+                    </div>
+
+                    <p class="text-gray-500 mb-5">We are providing the best and suitable home insurance services for
+                        the
+                        people who are interested
+                        to treatment</p>
+
+                    <div>
+                        <p class="font-bold">Ilham Yuda</p>
+                        <p class="text-gray-600">Businessman</p>
+                    </div>
+
+                    <img class="absolute w-6 right-6 bottom-6" src="./images/circles.png" alt="">
+                </div>
+
+
+                <!-- card 3 -->
+                <div
+                    class="flex flex-col max-w-[433px] relative bg-white pt-12 pl-12 pr-10 pb-8 rounded-2xl opacity-30">
+                    <div
+                        class="round-corner bg-white p-1 flex justify-center items-center absolute -top-5 -left-5 rounded-full">
+                        <img class="object-cover w-16" src="./images/client.png" alt="">
+                    </div>
+
+                    <p class="text-gray-500 mb-5">We are providing the best and suitable home insurance services for
+                        the
+                        people who are interested
+                        to treatment</p>
+
+                    <div>
+                        <p class="font-bold">Ilham Yuda</p>
+                        <p class="text-gray-600">Businessman</p>
+                    </div>
+
+                    <img class="absolute w-6 right-6 bottom-6" src="./images/circles.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="news">
+        <div class="container mx-auto py-16">
+            <div class="text-center mb-12">
+                <h2 class="font-extrabold text-4xl mb-4">News & Events</h2>
+                <p class="text-base text-gray-500 text-center max-w-4xl mx-auto">There are many variations of passages of Lorem
+                    Ipsum available, but the majority have suffered alteration in some form, by injected humour, or
+                    randomised words which don't look even slightly believable. </p>
+            </div>
+
+            <div class="grid md:grid-cols-3 grid-cols-1 gap-6">
+                <!-- card 1 -->
+                <div class="flex justify-center items-start flex-col p-5 rounded-2xl gap-5 border border-[#D2D2D2]">
+                    <img class="w-full object-cover object-center rounded-2xl h-[190px]" src="./images/news-1.png"
+                        alt="">
+                    <div class="space-y-2">
+                        <p class="font-medium text-gray-500">Feb 05, 2027</p>
+                        <h3 class="font-extrabold text-xl">Collecting 8 points for discount</h3>
+                        <p class="font-medium text-gray-500">Creamer could be replaced by fresh milk</p>
+                        <p class="font-bold text-gray-900">Learn More</p>
+                    </div>
+                </div>
+
+                <!-- card 2 -->
+                <div class="flex justify-center items-start flex-col p-5 rounded-2xl gap-5 border border-[#D2D2D2]">
+                    <img class="w-full object-cover object-center rounded-2xl h-[190px]" src="./images/news-2.png"
+                        alt="">
+                    <div class="space-y-2">
+                        <p class="font-medium text-gray-500">Feb 05, 2027</p>
+                        <h3 class="font-extrabold text-xl">Collecting 8 points for discount</h3>
+                        <p class="font-medium text-gray-500">Creamer could be replaced by fresh milk</p>
+                        <p class="font-bold text-gray-900">Learn More</p>
+                    </div>
+                </div>
+
+                <!-- card 3 -->
+                <div class="flex justify-center items-start flex-col p-5 rounded-2xl gap-5 border border-[#D2D2D2]">
+                    <img class="w-full object-cover object-center rounded-2xl h-[190px]" src="./images/news-3.png"
+                        alt="">
+                    <div class="space-y-2">
+                        <p class="font-medium text-gray-500">Feb 05, 2027</p>
+                        <h3 class="font-extrabold text-xl">Collecting 8 points for discount</h3>
+                        <p class="font-medium text-gray-500">Creamer could be replaced by fresh milk</p>
+                        <p class="font-bold text-gray-900">Learn More</p>
+                    </div>
                 </div>
             </div>
         </div>
